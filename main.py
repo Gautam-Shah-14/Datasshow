@@ -45,7 +45,7 @@ def read_student_data():
     
     return students
 
-@app.get("/")
+@app.get("/health")
 async def root():
     return {"message": "Student Data API - Use POST /student to get student data by enrollment"}
 
