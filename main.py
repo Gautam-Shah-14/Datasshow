@@ -64,7 +64,7 @@ async def get_student_data(request: EnrollmentRequest):
     
     return StudentResponse(**students[request.enrollment])
 
-@app.get("/students")
+@app.get("/all-students")
 async def get_all_students():
     """
     Get all students data
