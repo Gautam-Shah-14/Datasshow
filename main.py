@@ -33,11 +33,11 @@ def read_student_data():
             for row in reader:
                 students[row['Enrollment']] = {
                     'name': row['Name'],
-                    'enrollment': row['Enrollment'],
+                    'enrollment_no': row['Enrollment'],
                     'department': row['Department'],
                     'institute': row['Institute'],
                     'division': row['Division'],
-                    'email': row['email'],
+                    'email_id': row['email'],
                     'contact': row['contact']
                 }
     except Exception as e:
@@ -64,7 +64,7 @@ async def get_student_data(request: EnrollmentRequest):
     
     return StudentResponse(**students[request.enrollment])
 
-@app.get("/all-students")
+@app.get("/all-student")
 async def get_all_students():
     """
     Get all students data
