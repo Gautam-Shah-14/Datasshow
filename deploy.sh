@@ -7,7 +7,7 @@
 # ---------------- Configuration ----------------
 
 APP_NAME="Datasshow"
-APP_DIR="home/azureuser/Datasshow"
+APP_DIR="Datasshow"
 BRANCH="main"
 
 VENV_PATH="$APP_DIR/venv"
@@ -15,10 +15,10 @@ VENV_PATH="$APP_DIR/venv"
 HOST="127.0.0.1"
 PORT="8000"
 
-LOG_FILE="$APP_DIR/deploy.log"
+LOG_FILE="deploy.log"
 
 # Python mail script
-MAIL_SCRIPT="$APP_DIR/send_mail.py"
+MAIL_SCRIPT="send_mail.py"
 
 # ------------------------------------------------
 
