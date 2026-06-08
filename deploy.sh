@@ -7,7 +7,7 @@
 # ---------------- Configuration ----------------
 
 APP_NAME="Datasshow"
-APP_DIR="/home/azureuser/datasshow"
+APP_DIR="Datasshow"
 BRANCH="main"
 
 VENV_PATH="$APP_DIR/venv"
