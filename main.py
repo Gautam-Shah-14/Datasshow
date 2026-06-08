@@ -19,7 +19,7 @@ class StudentResponse(BaseModel):
     email: str
     contact: str
 
-def read_student_data():
+def read_student():
     """Read student data from CSV file"""
     students = {}
     csv_file = "students.csv"
