@@ -1,15 +1,1 @@
-name: Deploy
-on:
-  push:
-    branches:
-      - main
-jobs:
-  deploy:
-    runs-on: self-hosted
-    steps:
-      - name: Deploy to VM
-        shell: powershell
-        run: |
-          cd C:\Users\sfx-admin\Downloads\Datasshow
-          git pull origin main
-          pip install -r requirements.txt
+
