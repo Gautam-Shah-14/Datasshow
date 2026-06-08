@@ -4,7 +4,7 @@ import csv
 import os
 from typing import Optional
 
-# app = FastAPI(title="Student Data API for 10th convocation of PU", description="API to retrieve student data by enrollment number")
+app = FastAPI(title="Student Data API for 10th convocation of PU", description="API to retrieve student data by enrollment number")
 
 # Pydantic models
 class EnrollmentRequest(BaseModel):
